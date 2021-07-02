@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace FakeFinance.Models
+﻿namespace FakeFinance.Models
 {
     public class Transaction : AuditEntity
     {
         public decimal Amount { get; set; }
+        public string DebitAccountId { get; set; } = default!;
+        public string CreditAccountId { get; set; } = default!;
     }
 }

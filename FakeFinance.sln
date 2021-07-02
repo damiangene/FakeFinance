@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DEEF0D5E-B8C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4E86BBC8-0802-4573-A267-4A25887AA5E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{D79E5BAB-9767-4CF8-951B-5CEFDC1558F6}"
+	ProjectSection(SolutionItems) = preProject
+		BankAccounts.json = BankAccounts.json
+		Customers.json = Customers.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +31,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0AB58112-9926-4CE7-A912-AF0B970CBF9F} = {DEEF0D5E-B8C9-47C6-A50E-55AE1A0C92EC}
+		{D79E5BAB-9767-4CF8-951B-5CEFDC1558F6} = {DEEF0D5E-B8C9-47C6-A50E-55AE1A0C92EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5947575D-D01C-4F92-8EB4-90BAFAF00CCB}
